@@ -1,0 +1,105 @@
+/*
+ * Copyright (c) 2023 Gregor Gottschewski
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+ * documentation files (the “Software”), to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the
+ * Software, and to permit persons to whom the Software is furnished to do so, subject to the
+ * following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all copies or substantial
+ * portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+ * INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+ * PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+ * COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ * ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+
+.root {
+    -fx-font-family: Arial;
+}
+
+/* ********** Button ********** */
+.button {
+    -fx-background-color: rgb(230, 230, 230);
+    -fx-background-radius: 10px;
+}
+
+.button:hover {
+    -fx-background-color: rgb(220, 220, 220);
+}
+
+.button:focused {
+    -fx-background-color: rgb(210, 210, 210);
+}
+
+.button:default {
+    -fx-text-fill: white;
+    -fx-background-color: rgb(130, 140, 255);
+}
+
+.button:default:hover {
+    -fx-background-color: rgb(140, 150, 240);
+}
+
+.button:default:hover {
+    -fx-background-color: rgb(150, 160, 230);
+}
+
+.button:armed, .button:focused,
+.button:armed, .button:focused,
+.button:armed, .button:focused {
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+}
+
+/* ********** Button ********** */
+
+/* ********** MenuButton ********** */
+.menu-button {
+    -fx-background-color: rgb(230, 230, 230);
+    -fx-background-radius: 10px;
+}
+
+.menu-button {
+    -fx-background-color: rgb(230, 230, 230);
+}
+
+.menu-button:hover {
+    -fx-background-color: rgb(220, 220, 220);
+}
+/* ********** MenuButton ********** */
+
+/* ********** TextField ********** */
+.text-field {
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-background-color: rgb(240,240,240);
+    -fx-border-width: 0.25;
+    -fx-border-color: rgba(50,50,50);
+}
+/* ********** TextField ********** */
+
+/* ********** TextArea ********** */
+.text-area {
+    -fx-background-insets: 0;
+    -fx-font-family: Arial;
+}
+
+.text-area .content {
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-background-color: rgb(240,240,240);
+    -fx-border-width: 0.25;
+    -fx-border-color: rgb(50,50,50);
+}
+/* ********** TextArea ********** */
+
+/* ********** Separator ********** */
+.split-pane > .split-pane-divider {
+    -fx-padding: 0.5;
+    -fx-background-color: rgb(140, 140, 140);
+}
+/* ********** Separator ********** */
